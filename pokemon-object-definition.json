@@ -1,0 +1,240 @@
+[
+    {
+        "enableComments": false,
+        "objectRelationships": [],
+        "objectFolderExternalReferenceCode": "default",
+        "enableCategorization": true,
+        "accountEntryRestrictedObjectFieldName": "",
+        "className": "com.liferay.object.model.ObjectDefinition#B0Q3",
+        "objectActions": [],
+        "enableLocalization": false,
+        "accountEntryRestricted": false,
+        "externalReferenceCode": "0dbe6e4f-2be0-75d0-4a70-208d128a64b9",
+        "objectFields": [
+            {
+                "indexed": false,
+                "localized": false,
+                "objectFieldSettings": [],
+                "readOnly": "true",
+                "DBType": "String",
+                "label": {
+                    "en_US": "Author"
+                },
+                "type": "String",
+                "required": false,
+                "externalReferenceCode": "036d523f-1043-e31d-a77b-dfd5d72c7a3e",
+                "indexedAsKeyword": false,
+                "system": true,
+                "indexedLanguageId": "",
+                "unique": false,
+                "name": "creator",
+                "state": false,
+                "businessType": "Text",
+                "readOnlyConditionExpression": ""
+            },
+            {
+                "indexed": false,
+                "localized": false,
+                "objectFieldSettings": [],
+                "readOnly": "true",
+                "DBType": "Date",
+                "label": {
+                    "en_US": "Create Date"
+                },
+                "type": "Date",
+                "required": false,
+                "externalReferenceCode": "f75febc9-c950-9f35-ab66-bdc8dbf44144",
+                "indexedAsKeyword": false,
+                "system": true,
+                "indexedLanguageId": "",
+                "unique": false,
+                "name": "createDate",
+                "state": false,
+                "businessType": "Date",
+                "readOnlyConditionExpression": ""
+            },
+            {
+                "indexed": false,
+                "localized": false,
+                "objectFieldSettings": [],
+                "readOnly": "false",
+                "DBType": "String",
+                "label": {
+                    "en_US": "External Reference Code"
+                },
+                "type": "String",
+                "required": false,
+                "externalReferenceCode": "eee2866e-7214-4df4-a643-b08eb934e0c2",
+                "indexedAsKeyword": false,
+                "system": true,
+                "indexedLanguageId": "",
+                "unique": false,
+                "name": "externalReferenceCode",
+                "state": false,
+                "businessType": "Text",
+                "readOnlyConditionExpression": ""
+            },
+            {
+                "indexed": true,
+                "localized": false,
+                "objectFieldSettings": [],
+                "readOnly": "true",
+                "DBType": "Long",
+                "label": {
+                    "en_US": "ID"
+                },
+                "type": "Long",
+                "required": false,
+                "externalReferenceCode": "4db5b0e6-a097-714c-c6e7-941b16c8a190",
+                "indexedAsKeyword": true,
+                "system": true,
+                "indexedLanguageId": "",
+                "unique": false,
+                "name": "id",
+                "state": false,
+                "businessType": "LongInteger",
+                "readOnlyConditionExpression": ""
+            },
+            {
+                "indexed": false,
+                "localized": false,
+                "objectFieldSettings": [],
+                "readOnly": "true",
+                "DBType": "Date",
+                "label": {
+                    "en_US": "Modified Date"
+                },
+                "type": "Date",
+                "required": false,
+                "externalReferenceCode": "ce9f5100-af9d-4398-00fc-e67c8880dd2e",
+                "indexedAsKeyword": false,
+                "system": true,
+                "indexedLanguageId": "",
+                "unique": false,
+                "name": "modifiedDate",
+                "state": false,
+                "businessType": "Date",
+                "readOnlyConditionExpression": ""
+            },
+            {
+                "indexed": false,
+                "localized": false,
+                "objectFieldSettings": [],
+                "readOnly": "true",
+                "DBType": "String",
+                "label": {
+                    "en_US": "Status"
+                },
+                "type": "String",
+                "required": false,
+                "externalReferenceCode": "2ae723a3-e5dc-002a-35cb-5e9c5894df00",
+                "indexedAsKeyword": false,
+                "system": true,
+                "indexedLanguageId": "",
+                "unique": false,
+                "name": "status",
+                "state": false,
+                "businessType": "Text",
+                "readOnlyConditionExpression": ""
+            },
+            {
+                "indexed": true,
+                "localized": false,
+                "objectFieldSettings": [],
+                "readOnly": "false",
+                "DBType": "String",
+                "label": {
+                    "en_US": "Name"
+                },
+                "type": "String",
+                "required": true,
+                "externalReferenceCode": "dc01324c-673a-0a33-2c8b-5b8705c5ab22",
+                "indexedAsKeyword": false,
+                "system": false,
+                "indexedLanguageId": "en_US",
+                "unique": false,
+                "name": "name",
+                "state": false,
+                "businessType": "Text",
+                "readOnlyConditionExpression": ""
+            },
+            {
+                "indexed": true,
+                "localized": false,
+                "objectFieldSettings": [],
+                "readOnly": "false",
+                "DBType": "String",
+                "label": {
+                    "en_US": "Type"
+                },
+                "type": "String",
+                "required": false,
+                "externalReferenceCode": "b90fe4d9-b030-aa4c-94cc-c7cf0c5c7bdb",
+                "indexedAsKeyword": false,
+                "system": false,
+                "indexedLanguageId": "en_US",
+                "unique": false,
+                "name": "type",
+                "state": false,
+                "businessType": "Text",
+                "readOnlyConditionExpression": ""
+            },
+            {
+                "indexed": true,
+                "localized": false,
+                "objectFieldSettings": [],
+                "readOnly": "false",
+                "DBType": "String",
+                "label": {
+                    "en_US": "Image URL"
+                },
+                "type": "String",
+                "required": false,
+                "externalReferenceCode": "0feb24bf-1858-a1c3-d3ed-1fb02abc000a",
+                "indexedAsKeyword": false,
+                "system": false,
+                "indexedLanguageId": "en_US",
+                "unique": false,
+                "name": "imageURL",
+                "state": false,
+                "businessType": "Text",
+                "readOnlyConditionExpression": ""
+            }
+        ],
+        "restContextPath": "/o/c/pokemons",
+        "scope": "company",
+        "portlet": true,
+        "modifiable": true,
+        "parameterRequired": false,
+        "enableObjectEntryHistory": false,
+        "titleObjectFieldName": "id",
+        "objectValidationRules": [],
+        "active": true,
+        "defaultLanguageId": "en_US",
+        "enableIndexSearch": true,
+        "label": {
+            "en_US": "Pokemon"
+        },
+        "panelCategoryKey": "control_panel.object",
+        "pluralLabel": {
+            "en_US": "Pokemons"
+        },
+        "objectLayouts": [],
+        "system": false,
+        "objectViews": [],
+        "enableObjectEntryDraft": false,
+        "name": "Pokemon",
+        "actions": {
+            "permissions": {},
+            "get": {},
+            "update": {},
+            "delete": {},
+            "exportObjectDefinition": {}
+        },
+        "status": {
+            "label_i18n": "Approved",
+            "code": 0,
+            "label": "approved"
+        }
+    }
+]
